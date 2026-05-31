@@ -59,6 +59,7 @@ Basis for a custom scanner – easily extendable with new OWASP categories (e.g.
 
 ## Setup & Run
 bash
+```
 # Backend
 cd backend && npm install
 node server.js
@@ -68,6 +69,7 @@ cd frontend && npm install && npm start
 
 # Optionally start a vulnerable target
 docker run -d -p 80:80 vulnerables/web-dvwa
+```
 Then open http://localhost:3000, enter the target URL (e.g., http://localhost/vulnerabilities/sqli/), provide a session cookie, and start scanning.
 
 VulnScanner demonstrates that modern web vulnerability scanning – often seen as complex enterprise software – can be built from scratch with a few open‑source libraries, a clear architecture, and an optional AI safety net.
