@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  max-width: 900px;
+  margin: auto;
+  padding: 1rem;
+}
+
+form {
+  margin-bottom: 2rem;
+}
+
+input {
+  width: 300px;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+}
+
+.findings-list {
+  border: 1px solid #ccc;
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+}
+
+.finding-item {
+  padding: 0.5rem;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.finding-item:hover {
+  background-color: #f0f0f0;
+}
+
+.finding-detail {
+  background: #f9f9f9;
+  padding: 1rem;
+  border: 1px solid #ddd;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-break: break-all;
+}
